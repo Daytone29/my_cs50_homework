@@ -4,10 +4,10 @@
 int main(void)
 {
     int in;
-//We select possible options for incorrect input
+/*We select possible options for incorrect input*/
     do
     {
-        in = get_int("Height: "); //option for input from cs50 library
+        in = get_int("Height: "); //function for input from cs50 library
     }
     while (9 < in || in <= 0);
   
